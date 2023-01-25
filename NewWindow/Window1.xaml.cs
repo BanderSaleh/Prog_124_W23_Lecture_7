@@ -1,5 +1,4 @@
-﻿using Prog_124_W23_Lecture_7.Agg_Contain;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Prog_124_W23_Lecture_7
+namespace Prog_124_W23_Lecture_7.NewWindow
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Window1 : Window
     {
-        public MainWindow()
+        public Window1()
         {
             InitializeComponent();
-
-            new Agg_Contain_Notes().Show();
-            // What is aggregation
-            // It is a Has-A relationship
-
         }
     }
 }

@@ -29,6 +29,16 @@ namespace Prog_124_W23_Lecture_7
             // What is aggregation
             // It is a Has-A relationship
 
+            //create new instances
+            Animal animal = new Animal();
+            Hippo hungry = new Hippo();
+            BabyHippo babyhippo = new BabyHippo();
+
+            //MessageBox.Show("Hello World! TEST Messege!");
+            //Return a popup message to the user with the child overriden string returned
+            MessageBox.Show(babyhippo.Sound());
+
+
         }
     }
 }

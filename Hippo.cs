@@ -8,27 +8,20 @@ namespace Prog_124_W23_Lecture_7
 {
     internal class Hippo : Animal
     {
-        // What symbol do we use to inherit - Colon :
-        // Which class is the parent, which is the child
-        // Child : Parent
-        // Hippo : Animal
-        // Derived : base
+        //The : symbol means inherit
+        //Child : Parent
+        //Hippo : Animal
+        //Derived : base
 
         // Access Modifers are all about giving *what* to other programmers?
-        // Permission
+        // Answer: Permission
 
-        // Override lets me change the Virtual Method, Sound from the base
-        //public over string Sound()
-        //{
-        //    return "Snorting Roar";
-        //}
-
+       
         // C# will check for the nearest "declaration" of a method
-
-        // Keyword new
-        // Prevents others from overriding in derived classes
+        // Keyword "new" Prevents others from overriding in derived classes
         public new virtual string Sound()
         {
+            //sets a value and runs the return action
             return "Snorting Roar";
         }
 
